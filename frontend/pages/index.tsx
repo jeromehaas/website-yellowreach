@@ -6,15 +6,14 @@ import { PageLayout } from 'components/layout/PageLayout';
 import { LimiterLayout } from 'components/layout/LimiterLayout';
 import { SectionLayout } from 'components/layout/SectionLayout';
 import { Head } from 'components/partials/Head';
+import { Navigation } from 'components/partials/Navigation';
 
 export default function Home() {
   return (
     <div>
       <Head />
       <PageLayout>
-        <SectionLayout>
-          hello
-        </SectionLayout>
+        <Navigation />
       </PageLayout>
     </div>
   );
