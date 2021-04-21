@@ -46,6 +46,13 @@
       "react/react-in-jsx-scope": 0,
       "react/jsx-no-literals": 0,
       "react/jsx-one-expression-per-line": 0,
-      "react/jsx-max-depth": 0
-    }
+      "react/jsx-max-depth": 0,
+      "react/prop-types": 0,
+      "object-curly-newline": ["error", {
+            "ObjectExpression": "always",
+            "ObjectPattern": { "multiline": true },
+            "ImportDeclaration": "never",
+            "ExportDeclaration": { "multiline": true, "minProperties": 7 }
+        }]
+      }
 }

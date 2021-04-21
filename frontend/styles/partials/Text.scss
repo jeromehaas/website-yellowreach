@@ -1,0 +1,65 @@
+@import '../vars.scss';
+
+/* ------------------------------------------ */
+/* -- GENERAL
+/* ------------------------------------------ */
+
+.font-color-black {
+  color: $black;
+}
+
+.font-color-yellow {
+  color: $yellow;
+}
+
+.font-color-green {
+  color: $green;
+}
+
+.font-color-white {
+  color: $white;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/* ------------------------------------------ */
+/* -- HEADER 
+/* ------------------------------------------ */
+
+.paragraph {}
+
+.header-h1 {
+  font-size: 14px;
+  font-family: $font-bold;
+}
+
+.header-h2 {
+  font-size: 55px;
+  font-family: $font-bold;
+}
+
+.header-h3 {
+  font-size: 35px;
+  font-family: $font-bold;
+}
+
+.header-h4 {
+  font-size: 18px;
+  font-family: $font-bold;
+}
+
+/* ------------------------------------------ */
+/* -- PARAGRAPH
+/* ------------------------------------------ */
+
+.paragraph {}
