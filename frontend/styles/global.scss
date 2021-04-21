@@ -9,7 +9,27 @@
 }
 
 /* ------------------------------------------ */
-/* -- FONTS
+/* -- BACKGROUND COLOR
+/* ------------------------------------------ */
+
+.background-color-black {
+  background-color: $black;
+}
+
+.background-color-yellow {
+  background-color: $yellow;
+}
+
+.background-color-green {
+  background-color: $green;
+}
+
+.background-color-white {
+  background-color: $white;
+}
+
+/* ------------------------------------------ */
+/* -- FONT COLOR
 /* ------------------------------------------ */
 
 .font-color-black {
