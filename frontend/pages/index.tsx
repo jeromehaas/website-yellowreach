@@ -5,6 +5,7 @@ import { Button } from 'components/links/Button';
 import { Link } from 'components/links/Link';
 import { PageLayout } from 'components/layout/PageLayout';
 import { LimiterLayout } from 'components/layout/LimiterLayout';
+import { SectionLayout } from 'components/layout/SectionLayout';
 
 export default function Home() {
   return (
@@ -15,9 +16,9 @@ export default function Home() {
       </Head>
 
       <PageLayout>
-        <LimiterLayout>
+        <SectionLayout>
           hello
-        </LimiterLayout>
+        </SectionLayout>
       </PageLayout>
 
     </div>
