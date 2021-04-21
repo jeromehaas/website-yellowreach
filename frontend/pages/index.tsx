@@ -4,6 +4,7 @@ import { List } from 'components/text/List';
 import { Button } from 'components/links/Button';
 import { Link } from 'components/links/Link';
 import { PageLayout } from 'components/layout/PageLayout';
+import { LimiterLayout } from 'components/layout/LimiterLayout';
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
       </Head>
 
       <PageLayout>
-        hello world
+        <LimiterLayout>
+          hello
+        </LimiterLayout>
       </PageLayout>
 
     </div>
