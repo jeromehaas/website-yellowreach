@@ -1,7 +1,6 @@
 import Head from 'next/head';
 
 export default function Home() {
-  
   return (
     <div>
       <Head>
@@ -10,10 +9,9 @@ export default function Home() {
       </Head>
 
       <main>
-       hello world
+        hello world
       </main>
 
     </div>
-  )
-  
+  );
 }
