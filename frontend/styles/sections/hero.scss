@@ -1,6 +1,6 @@
 @import '../vars';
 
-#hero {}
+.hero {}
 
 .hero__wrapper {
   display: flex;
@@ -34,21 +34,27 @@
   letter-spacing: -1.22px;
   line-height: 71px;
   color: #0c080e;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.hero__typewriter {
+.hero__typewriter__wrapper {
+  min-height: 82px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.hero__typewriter__text {
   font-size: 55px;
-  font-weight: 300;
-  letter-spacing: -1.22px;
-  line-height: 89px;
-  height: 89px;
-  margin-bottom: 68px;
-  align-self: flex-start;
+  padding: 0 15px;
+  display: inline-block;
+  background-color: #F2BD00;
+  }
+
+  .hero__typewriter__cursor {
+    display: none;
 }
 
 .hero__typewriter span {
-  background-color: #F2BD00;
   border-right: 1px solid black;
   padding: 0 5px;
 }
