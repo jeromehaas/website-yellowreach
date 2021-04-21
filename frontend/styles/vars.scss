@@ -5,9 +5,18 @@ $yellow: #ffca0d;
 $green: #008281;
 
 // FONTS
-$default-font-family: 'Open-Sans Regular',
-sans-serif;
+$font-light: 'Open-Sans Light';
+$font-regular: 'Open-Sans Regular';
+$font-semibold: 'Open-Sans Semibold';
+$font-bold: 'Open-Sans Bold';
+$font-extrabold: 'Open-Sans Extrabold';
 $default-font-color: $black;
+$default-line-height: 1.5;
+
+// FONT-SIZES 
+$font-small: 12px;
+$font-medium: 16px;
+$font-big: 20px;
 
 // LAYOUT 
 $max-width: 1440px;
