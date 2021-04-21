@@ -7,3 +7,35 @@
   color: $black;
   line-height: $default-line-height;
 }
+
+/* ------------------------------------------ */
+/* -- FONTS
+/* ------------------------------------------ */
+
+.font-color-black {
+  color: $black;
+}
+
+.font-color-yellow {
+  color: $yellow;
+}
+
+.font-color-green {
+  color: $green;
+}
+
+.font-color-white {
+  color: $white;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
