@@ -1,0 +1,14 @@
+@import '../vars.scss';
+
+/* ------------------------------------------ */
+/* -- GENERAL
+/* ------------------------------------------ */
+
+.list {
+  list-style-image: url('/public/icons/other/bulletpoint-white.svg');
+}
+
+
+.list__item {
+  font-size: $font-medium;
+}

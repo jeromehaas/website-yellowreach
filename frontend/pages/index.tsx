@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { H1, H2, H3, H4, P } from 'components/text/Text';
+import { List } from 'components/text/List';
 
 export default function Home() {
   return (
@@ -10,11 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <H1>hello world</H1>
-        <H2>hello world</H2>
-        <H3>hello world</H3>
-        <H4>hello world</H4>
-        <P>hello world</P>
+        Hello World
       </main>
 
     </div>

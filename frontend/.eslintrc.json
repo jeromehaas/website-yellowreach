@@ -45,6 +45,7 @@
       "react/jsx-indent-props": [2, 2],
       "react/react-in-jsx-scope": 0,
       "react/jsx-no-literals": 0,
+      "import/prefer-default-export": 0,
       "react/jsx-one-expression-per-line": 0,
       "react/jsx-max-depth": 0,
       "react/prop-types": 0,
