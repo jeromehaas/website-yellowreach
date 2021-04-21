@@ -6,7 +6,7 @@ interface Props { }
 
 const Navigation: React.FunctionComponent<Props> = () => {
 
-  const [menuState, setMenuState] = useState('open');
+  const [menuState, setMenuState] = useState('closed');
 
   const toggleMenu = () => {
     setMenuState(menuState === 'closed' ? 'open' : 'closed');
@@ -22,7 +22,6 @@ const Navigation: React.FunctionComponent<Props> = () => {
             <Link fontColor="black" target="/" className="desktop-navigation__link">Functions</Link>
             <Link fontColor="black" target="/" className="desktop-navigation__link">About</Link>
             <Link fontColor="black" target="/" className="desktop-navigation__link">Contact</Link>
-            <Link fontColor="black" target="/">About</Link>
           </div>
         </SectionLayout>
       </nav>
@@ -39,10 +38,10 @@ const Navigation: React.FunctionComponent<Props> = () => {
         </SectionLayout>
       </nav>
       <div className={`mobile-navigation__backgroundlayer ${menuState === 'open' ? '--visible' : null} `}>
-        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
-        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
-        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
-        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
 
       </div>
     </Fragment>

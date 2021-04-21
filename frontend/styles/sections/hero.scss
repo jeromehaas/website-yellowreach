@@ -1,0 +1,75 @@
+@import '../vars';
+
+#hero {}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 0px;
+  background-image: url('../../public/images/kappelbridge.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.hero__card {
+  padding-top: 90px;
+  padding-right: 50px;
+  width: 410px;
+}
+
+.hero__title {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 17px;
+  color: #0c080e;
+}
+
+.hero__subtitle {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: -1.22px;
+  line-height: 71px;
+  color: #0c080e;
+  margin-bottom: 20px;
+}
+
+.hero__typewriter {
+  font-size: 55px;
+  font-weight: 300;
+  letter-spacing: -1.22px;
+  line-height: 89px;
+  height: 89px;
+  margin-bottom: 68px;
+  align-self: flex-start;
+}
+
+.hero__typewriter span {
+  background-color: #F2BD00;
+  border-right: 1px solid black;
+  padding: 0 5px;
+}
+
+.hero__text {
+  line-height: 1.75;
+  font-size: 22px;
+  color: #0c080e;
+  margin-bottom: 30px;
+  padding: 15px 30px 15px 0;
+  background-color: $white;
+  border-radius: 15px;
+}
+
+.hero__inner-text {
+  background-color: $white;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  padding: 5px 5px 5px 0;
+}
+
+.hero__button {
+  margin-bottom: 30px;
+}
