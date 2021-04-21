@@ -6,7 +6,7 @@ interface Props { }
 
 const Navigation: React.FunctionComponent<Props> = () => {
 
-  const [menuState, setMenuState] = useState('closed');
+  const [menuState, setMenuState] = useState('open');
 
   const toggleMenu = () => {
     setMenuState(menuState === 'closed' ? 'open' : 'closed');
@@ -30,21 +30,21 @@ const Navigation: React.FunctionComponent<Props> = () => {
         <SectionLayout>
           <div className="mobile-navigation__wrapper">
             <img src="logos/yellowreach.png" alt="" className="mobile-navigation__logo" />
-            <button className={`mobile-navigation__hamburger hamburger--squeeze ${menuState === 'open' ? 'hamburger--active' : 'hamburger'} `} type="button" onClick={toggleMenu}>
+            <button className={`mobile-navigation__hamburger hamburger hamburger--squeeze ${menuState === 'open' ? 'hamburger--active' : null} `} type="button" onClick={toggleMenu}>
               <span className="hamburger-box">
                 <span className="hamburger-inner" />
               </span>
             </button>
           </div>
         </SectionLayout>
-        <div className="mobile-navigation__backgroundlayer mobile-navigation__backgroundlayer--visible">
-          <Link target="/" fontColor="block" className="mobile-navigation__item mobile-navigation__item--present">Funktionen</Link>
-          <Link target="/" fontColor="block" className="mobile-navigation__item mobile-navigation__item--present">Mehrwert</Link>
-          <Link target="/" fontColor="block" className="mobile-navigation__item mobile-navigation__item--present">Über Uns</Link>
-          <Link target="/" fontColor="block" className="mobile-navigation__item mobile-navigation__item--present">Kontakt</Link>
-          <Link target="/" fontColor="block" className="mobile-navigation__item mobile-navigation__item--present">DE</Link>
-        </div>
       </nav>
+      <div className={`mobile-navigation__backgroundlayer ${menuState === 'open' ? '--visible' : null} `}>
+        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+        <Link target="/" fontColor="block" className={`mobile-navigation__item ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+
+      </div>
     </Fragment>
   );
 };
