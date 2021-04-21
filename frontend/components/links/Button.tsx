@@ -6,8 +6,8 @@ interface Props {
   target: string;
 }
 
-const Button: React.FunctionComponent<Props> = ({ buttonText, backgroundColor = 'yellow', target = '/' }) => (
-  <a href={target} className={`button background-color-${backgroundColor}`}>
+const Button: React.FunctionComponent<Props> = ({ buttonText, backgroundColor = 'yellow', target = '/', className }) => (
+  <a href={target} className={`button background-color-${backgroundColor} ${className}`}>
     {buttonText}
   </a>
 );

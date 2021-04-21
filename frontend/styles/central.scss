@@ -2,6 +2,7 @@
 @import 'fonts';
 @import 'vars';
 @import 'global.scss';
+/*-- PARTIALS --*/
 @import 'partials/Text.scss';
 @import 'partials/List.scss';
 @import 'partials/Button.scss';
@@ -9,3 +10,6 @@
 @import 'partials/Layout.scss';
 @import 'partials/Hamburger.scss';
 @import 'partials/Navigation.scss';
+
+/*-- SECIONS --*/
+@import 'sections/hero.scss';
