@@ -1,24 +1,17 @@
 @import '../vars.scss';
 /* ------------------------------------------ */
-/* -- BUTTON 
+/* -- LINK
 /* ------------------------------------------ */
 
-.button {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  max-width: 220px;
+.link {
   text-decoration: none;
-  padding: 15px;
   transition: 0.1s ease;
   font-size: $font-medium;
   font-weight: bold;
   letter-spacing: 1px;
-  color: $white;
-  text-transform: uppercase;
 }
 
-.button:hover {
+.link:hover {
   cursor: pointer;
   filter: contrast(1.1)
 }

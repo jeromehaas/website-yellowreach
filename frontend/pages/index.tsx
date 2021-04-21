@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { H1, H2, H3, H4, P } from 'components/text/Text';
 import { List } from 'components/text/List';
 import { Button } from 'components/links/Button';
+import { Link } from 'components/links/Link';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Button target="/" color="red" buttonText="here we go" />
+        hello world
       </main>
 
     </div>
