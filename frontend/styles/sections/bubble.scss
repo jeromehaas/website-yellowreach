@@ -1,0 +1,64 @@
+@import '../vars.scss';
+
+.bubble-holder {
+  position: relative;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.bubble {
+  border-radius: 50%;
+  position: absolute;
+  animation-name: riseUp;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  z-index: 0;
+  left: #{random(100)+'%'};
+  }
+
+  .bubble-small {
+    width: 20px;
+    height: 20px;
+    animation-duration: 30s
+  }
+
+  .bubble-medium {
+    width: 30px;
+    height: 30px;
+    animation-duration: 20s
+  }
+
+  .bubble-big {
+    width: 40px;
+    height: 40px;
+    animation-duration: 10s
+  }
+
+
+  @for $i from 1 through 100 {
+    .bubble:nth-child(#{$i}) {
+    left: #{random(100)+'%'};
+    animation-delay: #{random(10)+'s'};
+    }
+}
+
+@keyframes riseUp {
+  0% {
+    bottom: 0px;
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    bottom: 400px;
+    opacity: 0;
+  }
+}

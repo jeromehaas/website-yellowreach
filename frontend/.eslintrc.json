@@ -32,12 +32,6 @@
       }],
       "function-call-argument-newline": 0,
       "padded-blocks": 0,
-      "padding-line-between-statements": [
-        "error",
-        { "blankLine": "always", "prev": "*", "next": "return" },
-        { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-        { "blankLine": "any",    "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
-      ],
       "object-curly-spacing": ["error", "always"],
       "one-var": ["error", "never"],
       "quote-props": 0,
@@ -49,7 +43,9 @@
       "jsx-a11y/anchor-is-valid": 0,
       "react/jsx-one-expression-per-line": 0,
       "react/jsx-first-prop-new-line": 0,
+      "no-plusplus": 0,
       "react/jsx-max-props-per-line": 0,
+      "padding-line-between-statements": 0,
       "react/jsx-fragments": 0,
       "react/jsx-max-depth": 0,
       "react/prop-types": 0,
