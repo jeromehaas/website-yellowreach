@@ -2,17 +2,45 @@
 
 .bubble-holder {
   position: relative;
+  max-width: 1050px;
+  margin: 0 auto;
 }
 
 .bubble {
-  width: 20px;
-  height: 20px;
   border-radius: 50%;
-  background-color: $yellow;
   position: absolute;
-  animation: 1s linear riseUp infinite;
+  animation-name: riseUp;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   opacity: 0;
+  z-index: 0;
   left: #{random(100)+'%'};
+  }
+
+  .bubble-small {
+    width: 20px;
+    height: 20px;
+    animation-duration: 30s
+  }
+
+  .bubble-medium {
+    width: 30px;
+    height: 30px;
+    animation-duration: 20s
+  }
+
+  .bubble-big {
+    width: 40px;
+    height: 40px;
+    animation-duration: 10s
+  }
+
+
+  @for $i from 1 through 100 {
+    .bubble:nth-child(#{$i}) {
+    left: #{random(100)+'%'};
+    animation-delay: #{random(10)+'s'};
+    }
 }
 
 @keyframes riseUp {
@@ -30,7 +58,7 @@
   }
 
   100% {
-    bottom: 500px;
+    bottom: 400px;
     opacity: 0;
   }
 }

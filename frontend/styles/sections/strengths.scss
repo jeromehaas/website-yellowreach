@@ -8,16 +8,18 @@
   background-image: url('../../public/graphics/circle-grey.svg');
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  height: 500px;
+  min-height: 500px;
 }
 
 .strengths__title {
   margin-bottom: 15px;
+  z-index: 5;
 }
 
 .strenghts__text {
   max-width: 500px;
   margin: 0 auto 30px auto;
+  z-index: 5;
 }
 
 .strengths__item__wrapper {
@@ -25,18 +27,21 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  z-index: 5;
 }
 
 .strenghts__item {
   width: 25%;
   padding: 30px;
   max-width: 350px;
+  z-index: 5;
 }
 
 .strenghts__image {
   width: 100%;
   border-radius: 50%;
   margin-bottom: 15px;
+  z-index: 5;
 }
 @media (max-width: 900px) {
   .strenghts__item {
