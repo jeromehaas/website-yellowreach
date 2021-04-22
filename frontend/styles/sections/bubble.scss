@@ -1,0 +1,36 @@
+@import '../vars.scss';
+
+.bubble-holder {
+  position: relative;
+}
+
+.bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: $yellow;
+  position: absolute;
+  animation: 1s linear riseUp infinite;
+  opacity: 0;
+  left: #{random(100)+'%'};
+}
+
+@keyframes riseUp {
+  0% {
+    bottom: 0px;
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    bottom: 500px;
+    opacity: 0;
+  }
+}

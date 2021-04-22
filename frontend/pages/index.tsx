@@ -9,6 +9,7 @@ import { Head } from 'components/partials/Head';
 import { Navigation } from 'components/partials/Navigation';
 import { Hero } from 'components/sections/Hero';
 import { Strengths } from 'components/sections/Strengths';
+import { Bubbles } from 'components/sections/Bubbles';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Navigation />
         <Hero />
         <Strengths />
+        <Bubbles />
       </PageLayout>
     </div>
   );
