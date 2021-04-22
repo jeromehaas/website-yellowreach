@@ -1,0 +1,57 @@
+@import '../vars';
+
+.strenghts {}
+
+.strenghts__wrapper {
+  position: relative;
+  padding-top: 60px;
+  background-image: url('../../public/graphics/circle-grey.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  height: 500px;
+}
+
+.strengths__title {
+  margin-bottom: 15px;
+}
+
+.strenghts__text {
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+
+.strengths__item__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.strenghts__item {
+  width: 25%;
+  padding: 30px;
+  max-width: 350px;
+}
+
+.strenghts__image {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 900px) {
+  .strenghts__item {
+    width: 50%;
+    padding: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .strenghts__item {
+    width: 100%;
+    padding: 30px;
+
+  }
+}

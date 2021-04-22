@@ -18,7 +18,7 @@ const H2: React.FunctionComponent<Props> = ({ children, fontColor = 'black', tex
   </h2>
 );
 const H3: React.FunctionComponent<Props> = ({ children, fontColor = 'black', textAlign = 'left', className }) => (
-  <h3 className={`title header-h3 text-align - ${textAlign}  font-color-${fontColor} ${className}`}>
+  <h3 className={`title header-h3 text-align-${textAlign}  font-color-${fontColor} ${className}`}>
     { children}
   </h3>
 );
