@@ -8,6 +8,7 @@ import { SectionLayout } from 'components/layout/SectionLayout';
 import { Head } from 'components/partials/Head';
 import { Navigation } from 'components/partials/Navigation';
 import { Hero } from 'components/sections/Hero';
+import { Strengths } from 'components/sections/Strengths';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <PageLayout>
         <Navigation />
         <Hero />
+        <Strengths />
       </PageLayout>
     </div>
   );

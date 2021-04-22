@@ -10,7 +10,7 @@ const Hero: React.FunctionComponent<Props> = () => (
   <div id="hero" className="section">
     <div className="section__wrapper hero__wrapper">
       <div className="hero__card">
-        <H1 className="hero__title">MailWeaver</H1>
+        <H1 className="hero__title">yellowreach</H1>
         <H2 className="hero__subtitle">Unique in:</H2>
         <div className="hero__typewriter__wrapper">
           <Typewriter
@@ -25,7 +25,7 @@ const Hero: React.FunctionComponent<Props> = () => (
         </div>
         <P className="hero__text">
           <span className="hero__inner-text">
-            Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen.
+            With yellowreach you can send and receive automated emails with ease.
           </span>
         </P>
         <Button className="hero__button" buttonText="view sourcecode" target="/" />
