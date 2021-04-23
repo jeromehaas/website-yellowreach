@@ -11,6 +11,7 @@ import { Hero } from 'components/sections/Hero';
 import { Strengths } from 'components/sections/Strengths';
 import { Bubbles } from 'components/sections/Bubbles';
 import { UseCases } from 'components/sections/UseCases';
+import { OpenSource } from 'components/sections/OpenSource';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Strengths />
         <Bubbles />
         <UseCases />
+        <OpenSource />
       </PageLayout>
     </div>
   );

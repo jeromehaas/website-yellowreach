@@ -38,7 +38,7 @@
 
   @for $i from 1 through 100 {
     .bubble:nth-child(#{$i}) {
-    left: #{random(100)+'%'};
+    left: #{random(95)+'%'};
     animation-delay: #{random(10)+'s'};
     }
 }
