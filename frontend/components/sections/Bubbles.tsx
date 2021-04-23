@@ -29,7 +29,7 @@ const Bubbles: React.FunctionComponent<Props> = () => {
       const color = getRandomColor();
       bubbleArray.push(parse(`<div key=${i} class="bubble bubble-${size} background-color-${color}"></div>`));
     }
-    console.log(bubbleArray);
+
     setBubbles(bubbleArray);
   };
 
