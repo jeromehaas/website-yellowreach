@@ -1,56 +1,56 @@
 @import '../vars';
 
-.opensource__wrapper {
+.usecases__wrapper {
   display: flex;
   flex-direction: row;
   padding: 0;
 }
 
-.opensource__box {
+.usecases__box {
   width: 50%;
   padding: 45px;
   min-height: 550px;
 }
 
-.opensource__box--left {
+.usecases__box--left {
   display: grid;
   justify-content: center;
   align-content: center;
 }
 
-.opensource__title {
+.usecases__title {
   margin-bottom: 30px;
 }
 
-.opensource__text {
+.usecases__text {
   margin-bottom: 30px;
 }
 
-.opensource__box--right {
+.usecases__box--right {
   display: grid;
   justify-content: center;
   align-content: center;
 }
 
-.opensource__image {
+.usecases__image {
   width: 85%;
   margin: 0 auto;
   max-width: 450px;
 }
 
 @media (max-width: 850px) {
-  .opensource__wrapper {
+  .usecases__wrapper {
     display: flex;
     flex-direction: column;
     padding: 0;
   }
 
-  .opensource__box {
+  .usecases__box {
     width: 100%;
     min-height: unset;
   }
 
-  .opensource__box--right {
+  .usecases__box--right {
     padding: 60px 30px;
   }
 }
