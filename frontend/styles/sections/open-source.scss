@@ -1,56 +1,98 @@
 @import '../vars';
 
-.usecases__wrapper {
+.opensource__wrapper {
   display: flex;
   flex-direction: row;
   padding: 0;
 }
 
-.usecases__box {
+.opensource__box {
   width: 50%;
   padding: 45px;
   min-height: 550px;
 }
 
-.usecases__box--left {
+.opensource__box--left {
   display: grid;
   justify-content: center;
   align-content: center;
 }
 
-.usecases__title {
+.opensource__title {
   margin-bottom: 30px;
 }
 
-.usecases__text {
+.opensource__text {
   margin-bottom: 30px;
 }
 
-.usecases__box--right {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-}
-
-.usecases__image {
-  width: 85%;
+.opensource__box--right {
+  position: relative;
+  max-width: 550px;
+  height: 550px;
   margin: 0 auto;
-  max-width: 450px;
+  min-height: 550px;
+}
+
+.opensource__image {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &.rotate-forwards {
+    animation: rotate-forwards 150s linear infinite;
+  }
+
+  &.rotate-backwards {
+    animation: rotate-backwards 150s linear infinite;
+  }
 }
 
 @media (max-width: 850px) {
-  .usecases__wrapper {
+  .opensource__wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 0;
   }
 
-  .usecases__box {
+  .opensource__box {
     width: 100%;
     min-height: unset;
   }
-
-  .usecases__box--right {
-    padding: 60px 30px;
+  
+  .opensource__box--right {
+    // height: 80vw;s
   }
+
+  .opensource__title,
+  .opensource__text {
+    text-align: center;
+  }
+
+  .opensource__button {
+    margin: 0 auto;
+  }
+  }
+
+  @keyframes rotate-forwards {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  @keyframes rotate-backwards {
+    from {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
 }

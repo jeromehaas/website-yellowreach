@@ -1,0 +1,56 @@
+@import '../vars';
+
+.usecases__wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.usecases__box {
+  width: 50%;
+  padding: 45px;
+  min-height: 550px;
+}
+
+.usecases__box--left {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.usecases__title {
+  margin-bottom: 30px;
+}
+
+.usecases__text {
+  margin-bottom: 30px;
+}
+
+.usecases__box--right {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.usecases__image {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media (max-width: 850px) {
+  .usecases__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .usecases__box {
+    width: 100%;
+    min-height: unset;
+  }
+
+  .usecases__box--right {
+    padding: 60px 30px;
+  }
+}
