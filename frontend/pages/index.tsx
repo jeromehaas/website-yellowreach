@@ -14,6 +14,7 @@ import { OpenSource } from 'components/sections/OpenSource';
 import { UseCases } from 'components/sections/UseCases';
 import { TechStack } from 'components/sections/TechStack';
 import { Review } from 'components/sections/Review';
+import { Footer } from 'components/partials/Footer';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <UseCases />
         <TechStack />
         <Review />
+        <Footer />
       </PageLayout>
     </div>
   );
