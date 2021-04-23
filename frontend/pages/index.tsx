@@ -10,8 +10,9 @@ import { Navigation } from 'components/partials/Navigation';
 import { Hero } from 'components/sections/Hero';
 import { Strengths } from 'components/sections/Strengths';
 import { Bubbles } from 'components/sections/Bubbles';
-import { UseCases } from 'components/sections/UseCases';
 import { OpenSource } from 'components/sections/OpenSource';
+import { UseCases } from 'components/sections/UseCases';
+import { TechStack } from 'components/sections/TechStack';
 
 export default function Home() {
   return (
@@ -22,8 +23,9 @@ export default function Home() {
         <Hero />
         <Strengths />
         <Bubbles />
-        <UseCases />
         <OpenSource />
+        <UseCases />
+        <TechStack />
       </PageLayout>
     </div>
   );
