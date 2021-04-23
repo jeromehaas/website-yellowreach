@@ -10,6 +10,7 @@ import { Navigation } from 'components/partials/Navigation';
 import { Hero } from 'components/sections/Hero';
 import { Strengths } from 'components/sections/Strengths';
 import { Bubbles } from 'components/sections/Bubbles';
+import { OpenSource } from 'components/sections/OpenSource';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Strengths />
         <Bubbles />
+        <OpenSource />
       </PageLayout>
     </div>
   );

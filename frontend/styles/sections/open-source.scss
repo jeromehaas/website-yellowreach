@@ -1,0 +1,56 @@
+@import '../vars';
+
+.opensource__wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.opensource__box {
+  width: 50%;
+  padding: 45px;
+  min-height: 550px;
+}
+
+.opensource__box--left {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.opensource__title {
+  margin-bottom: 30px;
+}
+
+.opensource__text {
+  margin-bottom: 30px;
+}
+
+.opensource__box--right {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.opensource__image {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media (max-width: 850px) {
+  .opensource__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .opensource__box {
+    width: 100%;
+    min-height: unset;
+  }
+
+  .opensource__box--right {
+    padding: 60px 30px;
+  }
+}
