@@ -17,6 +17,7 @@
   padding-top: 90px;
   padding-right: 50px;
   width: 410px;
+  z-index: 5;
 }
 
 .hero__title {
@@ -78,4 +79,29 @@
 
 .hero__button {
   margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .hero__wrapper {
+    background-image: url('../../public/graphics/circle-grey-topleft.svg');
+    display: block;
+    margin-bottom: -2px;
+  }
+
+  .hero__text {
+    line-height: 1.75;
+    font-size: 22px;
+    color: #0c080e;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 5;
+  }
+
+  .hero__inner-text {
+    background-color: transparent;
+    line-height: 1.75;
+    white-space: pre-wrap;
+    padding: 5px 5px 5px 5px;
+  }
 }

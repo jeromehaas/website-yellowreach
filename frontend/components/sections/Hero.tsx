@@ -36,7 +36,3 @@ const Hero: React.FunctionComponent<Props> = () => (
 );
 
 export { Hero };
-
-/*
-
-*/
