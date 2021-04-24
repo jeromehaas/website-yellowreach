@@ -26,8 +26,8 @@ const Footer: React.FunctionComponent<Props> = () => (
         </div>
         <div className="footer__container">
           <ul>
-            <li><a href="#">Imprint</a></li>
-            <li><a href="#">Data Privacy</a></li>
+            <li><a href="/imprint">Imprint</a></li>
+            <li><a href="/privacy">Data Privacy</a></li>
           </ul>
         </div>
         <div className="footer__container">
