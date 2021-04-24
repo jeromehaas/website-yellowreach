@@ -22,9 +22,9 @@ const Bubbles: React.FunctionComponent<Props> = () => {
   const renderBubbles = (viewPortWidth) => {
     let distanceBetweenBubbles;
     if (viewPortWidth < 600) {
-      distanceBetweenBubbles = 60;
+      distanceBetweenBubbles = 50;
     } else if (viewPortWidth < 900) {
-      distanceBetweenBubbles = 30;
+      distanceBetweenBubbles = 25;
     } else {
       distanceBetweenBubbles = 120;
     }
