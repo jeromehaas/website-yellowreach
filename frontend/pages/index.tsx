@@ -28,7 +28,6 @@ export default function Home() {
         <OpenSource />
         <UseCases />
         <TechStack />
-        <Review />
         <Footer />
       </PageLayout>
     </div>
