@@ -22,7 +22,6 @@ const Navigation: React.FunctionComponent<Props> = () => {
             <Link fontColor="black" target="/#strenghts" className="desktop-navigation__link">Strenghts</Link>
             <Link fontColor="black" target="/#usecases" className="desktop-navigation__link">Use Cases</Link>
             <Link fontColor="black" target="/#techstack" className="desktop-navigation__link">Tech Stack</Link>
-            <Link fontColor="black" target="/#review" className="desktop-navigation__link">Reviews</Link>
           </div>
         </SectionLayout>
       </nav>
@@ -42,8 +41,6 @@ const Navigation: React.FunctionComponent<Props> = () => {
         <Link target="/#strenghts" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Strenghts</Link>
         <Link target="/#usecases" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Use Cases</Link>
         <Link target="/#techstack" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Tech Stack</Link>
-        <Link target="/#review" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Reviews</Link>
-
       </div>
     </Fragment>
   );

@@ -28,7 +28,7 @@ const Hero: React.FunctionComponent<Props> = () => (
             yellowreach is an application to send and receive automated emails with ease - developed with passion in Lucerne.
           </span>
         </P>
-        <Button className="hero__button" buttonText="view sourcecode" target="/" />
+        <Button className="hero__button" buttonText="view sourcecode" target="https://github.com/jeromehaas/yellowreach-mailserver" />
       </div>
     </div>
   </div>
