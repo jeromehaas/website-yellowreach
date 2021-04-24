@@ -8,6 +8,8 @@
   line-height: $default-line-height;
   scrollbar-width: none;
   scroll-behavior: smooth;
+  cursor: url('/cursor/arrow.svg') 0 0,
+  auto !important;
 }
 
 *::-webkit-scrollbar {
