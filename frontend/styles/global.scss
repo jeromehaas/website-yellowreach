@@ -10,6 +10,7 @@
   scroll-behavior: smooth;
   cursor: url('/cursor/arrow.svg') 0 0,
   auto !important;
+  -webkit-appearance: none;
 }
 
 *::-webkit-scrollbar {
