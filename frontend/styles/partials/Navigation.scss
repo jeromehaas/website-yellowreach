@@ -21,9 +21,13 @@
   height: 100px;
 }
 
-.desktop-navigation__logo {
+.desktop-navigation__logo-link {
   margin-right: auto;
-  height: 23px;
+  height: 20px;
+  }
+
+  .desktop-navigation__logo-image {
+    height: 20px;
 }
 
 .desktop-navigation__link {
@@ -152,5 +156,11 @@
 
   .mobile-navigation {
     display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .mobile-navigation__logo {
+    height: 15px;
   }
 }

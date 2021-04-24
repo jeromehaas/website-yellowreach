@@ -4,19 +4,19 @@ import { H3, H4, P } from 'components/text/Text';
 const reviews = [
   {
     id: 1,
-    quote: 'Spannend war, dass wir beim Design mitbestimmen konnten. Ausserdem legten wir Wert auf einen Schweizer Lieferanten. Das garantiert uns auch die langjährige Nachlieferung',
-    author: 'Jérôme Haas',
+    quote: 'We already felt completely understood during the initial consultation, as we were able to easily address and sustainably cover our very individual needs.',
+    author: 'Edward Eddingson',
     title: 'Frontend Developer',
   },
   {
     id: 2,
-    quote: 'Unsere Wünsche und Anliegen wurden kundennah berücksichtigt. Die hohe Zufriedenheit der Mitarbeitenden, die den Tragekomfort loben, bestätigt den Entscheid, die Arcmedia AG als Partner zu wählen.',
+    quote: 'It was exciting that we could have a say in the design. We also attached importance to a Swiss supplier. This also guarantees us many years of subsequent delivery.',
     author: 'Max Muster',
     title: 'Fullstack Developer',
   },
   {
     id: 3,
-    quote: 'Wir fühlten uns bereits bei der Erstberatung komplett verstanden, denn wir konnten problemlos unsere sehr individuellen Bedürfnisse anbringen und nachhaltig abdecken.',
+    quote: 'Our wishes and concerns were taken into account in a customer-oriented manner. The high level of satisfaction of the employees, who praise the comfort of use, confirms the decision to choose yellowreach as the service for sending emails.',
     author: 'Heinz Hütter',
     title: 'Project Owner',
   },

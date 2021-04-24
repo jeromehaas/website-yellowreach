@@ -15,7 +15,7 @@ const Hero: React.FunctionComponent<Props> = () => (
         <div className="hero__typewriter__wrapper">
           <Typewriter
             options={{
-              strings: ['Security', 'Awesomeness', 'Deliverablity', 'Setup'],
+              strings: ['Security', 'Simplicity', 'Deliverability', 'Setup'],
               autoStart: true,
               loop: true,
               cursorClassName: 'hero__typewriter__cursor',
@@ -25,13 +25,12 @@ const Hero: React.FunctionComponent<Props> = () => (
         </div>
         <P className="hero__text">
           <span className="hero__inner-text">
-            With yellowreach you can send and receive automated emails with ease.
+            yellowreach is an application to send and receive automated emails with ease - developed with passion in Lucerne.
           </span>
         </P>
         <Button className="hero__button" buttonText="view sourcecode" target="/" />
       </div>
     </div>
-
   </div>
 
 );
