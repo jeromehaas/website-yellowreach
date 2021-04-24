@@ -20,7 +20,14 @@ const Bubbles: React.FunctionComponent<Props> = () => {
 
   const { viewPortWidth } = useWindowSize();
   const renderBubbles = (viewPortWidth) => {
-    const distanceBetweenBubbles = 125;
+    let distanceBetweenBubbles;
+    if (viewPortWidth < 600) {
+      distanceBetweenBubbles = 60;
+    } else if (viewPortWidth < 900) {
+      distanceBetweenBubbles = 30;
+    } else {
+      distanceBetweenBubbles = 120;
+    }
     const numberOfBubblesToCreate = viewPortWidth / distanceBetweenBubbles;
     const bubbleArray = [];
 

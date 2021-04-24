@@ -39,26 +39,93 @@
   @for $i from 1 through 100 {
     .bubble:nth-child(#{$i}) {
     left: #{random(95)+'%'};
-    animation-delay: #{random(10)+'s'};
+    animation-delay: #{random(60)+'s'};
     }
+    }
+
+    @keyframes riseUp {
+      0% {
+        bottom: 0px;
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 1;
+      }
+
+      60% {
+        opacity: 1;
+      }
+
+      100% {
+        bottom: 400px;
+        opacity: 0;
+      }
+    }
+@media (max-width: 900px) {
+  .bubble-small {
+    animation-duration: 60s
+  }
+
+  .bubble-medium {
+    animation-duration: 40s;
+  }
+
+  .bubble-big {
+    animation-duration: 20s
+  }
+
+  @keyframes riseUp {
+    0% {
+      bottom: 0px;
+      opacity: 0;
+    }
+
+    40% {
+      opacity: 1;
+    }
+
+    60% {
+      opacity: 1;
+    }
+
+    100% {
+      bottom: 800px;
+      opacity: 0;
+    }
+  }
 }
 
-@keyframes riseUp {
-  0% {
-    bottom: 0px;
-    opacity: 0;
+@media (max-width: 600px) {
+  .bubble-small {
+    animation-duration: 90s
   }
 
-  40% {
-    opacity: 1;
+  .bubble-medium {
+    animation-duration: 70s;
   }
 
-  60% {
-    opacity: 1;
+  .bubble-big {
+    animation-duration: 50s
   }
 
-  100% {
-    bottom: 400px;
-    opacity: 0;
+  @keyframes riseUp {
+    0% {
+      bottom: 0px;
+      opacity: 0;
+    }
+
+    40% {
+      opacity: 1;
+    }
+
+    60% {
+      opacity: 1;
+    }
+
+    100% {
+      bottom: 1600px;
+      opacity: 0;
+    }
   }
 }
