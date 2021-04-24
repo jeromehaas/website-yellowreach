@@ -18,17 +18,18 @@ const Navigation: React.FunctionComponent<Props> = () => {
       <nav className="desktop-navigation">
         <SectionLayout>
           <div className="desktop-navigation__wrapper">
-            <img src="logos/yellowreach.png" alt="" className="desktop-navigation__logo" />
-            <Link fontColor="black" target="/" className="desktop-navigation__link">Functions</Link>
-            <Link fontColor="black" target="/" className="desktop-navigation__link">About</Link>
-            <Link fontColor="black" target="/" className="desktop-navigation__link">Contact</Link>
+            <Link target="/#hero" className="desktop-navigation__logo-link"><img className="desktop-navigation__logo-image" src="logos/yellowreach/yellowreach.svg" alt="yellowreach" /></Link>
+            <Link fontColor="black" target="/#strenghts" className="desktop-navigation__link">Strenghts</Link>
+            <Link fontColor="black" target="/#usecases" className="desktop-navigation__link">Use Cases</Link>
+            <Link fontColor="black" target="/#techstack" className="desktop-navigation__link">Tech Stack</Link>
+            <Link fontColor="black" target="/#review" className="desktop-navigation__link">Reviews</Link>
           </div>
         </SectionLayout>
       </nav>
       <nav className="mobile-navigation">
         <SectionLayout>
           <div className="mobile-navigation__wrapper">
-            <img src="logos/yellowreach.png" alt="" className="mobile-navigation__logo" />
+            <img src="logos/yellowreach/yellowreach.svg" alt="" className="mobile-navigation__logo" />
             <button className={`mobile-navigation__hamburger hamburger hamburger--squeeze ${menuState === 'open' ? 'hamburger--active' : null} `} type="button" onClick={toggleMenu}>
               <span className="hamburger-box">
                 <span className="hamburger-inner" />
@@ -37,11 +38,11 @@ const Navigation: React.FunctionComponent<Props> = () => {
           </div>
         </SectionLayout>
       </nav>
-      <div className={`mobile-navigation__backgroundlayer ${menuState === 'open' ? '--visible' : null} `}>
-        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
-        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
-        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
-        <Link target="/" fontColor="block" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `}>Funktionen</Link>
+      <div className={`mobile-navigation__backgroundlayer ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>
+        <Link target="/#strenghts" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Strenghts</Link>
+        <Link target="/#usecases" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Use Cases</Link>
+        <Link target="/#techstack" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Tech Stack</Link>
+        <Link target="/#review" fontColor="black" className={`mobile-navigation__link ${menuState === 'open' ? '--visible' : null} `} type="button" onClick={toggleMenu}>Reviews</Link>
 
       </div>
     </Fragment>

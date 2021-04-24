@@ -15,7 +15,7 @@ const OpenSource: React.FunctionComponent<Props> = () => (
       </div>
       <div className="opensource__box opensource__box--left">
         <H3 className="opensource__title">Free and Opensource</H3>
-        <P className="opensource__text">Yellowreach is self hosted on a UNIX server. The application is very dynamic and can serve almost any programming languages. Major use cases are:</P>
+        <P className="opensource__text">yellowreach is free for everyone. Just clone the repository from GitHub and get your own mailserver up and running in a few minutes. We recommend to use an server, but any server thant can run NodeJS will be fine.</P>
         <Button className="opensource__button" buttonText="check the repo" target="/" />
       </div>
 

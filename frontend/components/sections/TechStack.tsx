@@ -7,7 +7,7 @@ import { Link } from 'components/links/Link';
 interface Props { }
 
 const TechStack: React.FunctionComponent<Props> = () => (
-  <div id="opensource" className="section">
+  <div id="techstack" className="section">
     <div className="section__wrapper techstack__wrapper">
       <div className="techstack__box techstack__box--right background-color-yellow">
         <Link target="/"><img className="techstack__image coresender" src="logos/tech-stack/coresender.png" alt="Coresender" /></Link>
@@ -19,7 +19,7 @@ const TechStack: React.FunctionComponent<Props> = () => (
       </div>
       <div className="techstack__box techstack__box--left">
         <H3 className="techstack__title" textAlign="center">Tech Stack and Services</H3>
-        <P className="techstack__text" textAlign="center">Yellowreach is self hosted on a UNIX server. The application is very dynamic and can serve almost any programming languages. Major use cases are:</P>
+        <P className="techstack__text" textAlign="center">yellow reach is built mostly with NodeJS, using the Express framework which uses the great package from NodeMailer. We recommend to run the server on Ubuntu and we recommend to use the Zurb email foundation to create your HTML emails. Also we recommend to use Coresender - a very minimalistic and bulletproof service to send the emails.</P>
         <Button className="techstack__button" buttonText="visit Coresender" />
       </div>
     </div>

@@ -26,6 +26,10 @@
   margin-bottom: 30px;
 }
 
+.techstack__button {
+  margin: 0 auto;
+}
+
 .techstack__box--right {
   position: relative;
   height: 550px;
@@ -87,6 +91,10 @@
   .techstack__box {
     width: 100%;
     min-height: unset;
+  }
+
+  .techstack__box--left {
+    padding: 75px 30px;
   }
 
 
