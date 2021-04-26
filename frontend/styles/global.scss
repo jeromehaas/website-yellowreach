@@ -17,6 +17,11 @@
   display: none;
   -webkit-appearance: none;
 }
+.list__item {
+  font-size: $font-medium;
+  line-height: 2;
+}
+
 /* ------------------------------------------ */
 /* -- BACKGROUND COLOR
 /* ------------------------------------------ */
