@@ -11,7 +11,7 @@ const Head: React.FunctionComponent<Props> = ({ title }) => (
     <meta name="description" content="Send emails with ease from your website to your email client!" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
     <meta name="author" content="Jérôme Haas" />
-    <link rel="icon" href="favicon/favicon.png" />
+    <link rel="icon" href="/favicon/favicon.png" />
     <link rel="preload" as="image" href="/animations/sourcecode/sourcecode-ring-inner.png" />
     <link rel="preload" as="image" href="/animations/sourcecode/sourcecode-ring-middle.png" />
     <link rel="preload" as="image" href="/animations/sourcecode/sourcecode-ring-outer.png" />
