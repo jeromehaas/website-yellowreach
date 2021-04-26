@@ -18,7 +18,7 @@ const Navigation: React.FunctionComponent<Props> = () => {
       <nav className="desktop-navigation">
         <SectionLayout>
           <div className="desktop-navigation__wrapper">
-            <Link target="/#hero" className="desktop-navigation__logo-link"><img className="desktop-navigation__logo-image" src="logos/yellowreach/yellowreach.svg" alt="yellowreach" /></Link>
+            <Link target="/#hero" className="desktop-navigation__logo-link"><img className="desktop-navigation__logo-image" src="/logos/yellowreach/yellowreach.svg" alt="yellowreach" /></Link>
             <Link fontColor="black" target="/#strenghts" className="desktop-navigation__link">Strenghts</Link>
             <Link fontColor="black" target="/#usecases" className="desktop-navigation__link">Use Cases</Link>
             <Link fontColor="black" target="/#techstack" className="desktop-navigation__link">Tech Stack</Link>
@@ -28,7 +28,7 @@ const Navigation: React.FunctionComponent<Props> = () => {
       <nav className="mobile-navigation">
         <SectionLayout>
           <div className="mobile-navigation__wrapper">
-            <img src="logos/yellowreach/yellowreach.svg" alt="" className="mobile-navigation__logo" />
+            <img src="/logos/yellowreach/yellowreach.svg" alt="" className="mobile-navigation__logo" />
             <button className={`mobile-navigation__hamburger hamburger hamburger--squeeze ${menuState === 'open' ? 'hamburger--active' : null} `} type="button" onClick={toggleMenu}>
               <span className="hamburger-box">
                 <span className="hamburger-inner" />

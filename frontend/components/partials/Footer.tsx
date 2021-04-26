@@ -31,7 +31,7 @@ const Footer: React.FunctionComponent<Props> = () => (
           </ul>
         </div>
         <div className="footer__container">
-          <Link href="https://github.com/jeromehaas/yellowreach-mailserver"><img src="logos/social-media/github.png" alt="GitHub Repo Link" /></Link>
+          <Link href="https://github.com/jeromehaas/yellowreach-mailserver"><img src="/logos/social-media/github.png" alt="GitHub Repo Link" /></Link>
         </div>
       </div>
     </div>
