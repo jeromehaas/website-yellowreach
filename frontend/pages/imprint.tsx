@@ -29,11 +29,11 @@ const imprint: React.FunctionComponent<Props> = () => (
             <P>Jérôme Haas</P>
             <P>Email: <Link target="hello@jeromehaas.dev">hello@jeromehaas.dev</Link></P>
             <P>Website: <Link target="https://jeromehaas.dev">jeromehaas.dev</Link></P>
-            {/* <br />
+            <br />
             <H4>Motion Design</H4>
             <P>Marc Sen</P>
             <P>Email: <Link target="mailto:hallo@reiheacht.ch">hallo@reiheacht.ch</Link></P>
-            <P>Website: <Link target="https://reihe8.ch">reihe8.ch</Link></P> */}
+            <P>Website: <Link target="https://reihe8.ch">reihe8.ch</Link></P>
           </div>
           <div className="imprint__paragraph">
             <H3>Disclaimer</H3>
