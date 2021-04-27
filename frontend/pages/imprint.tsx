@@ -20,7 +20,7 @@ const imprint: React.FunctionComponent<Props> = () => (
             <H3>Publisher</H3>
             <P>Yellowreach</P>
             <P>Tel: +41 79 512 90 16</P>
-            <P>E-Mail: info@yellowreach.io;</P>
+            <P>E-Mail: info@yellowreach.io</P>
           </div>
           <div className="imprint__paragraph">
             <H3>Realisation</H3>
