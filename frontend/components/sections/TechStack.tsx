@@ -19,7 +19,7 @@ const TechStack: React.FunctionComponent<Props> = () => (
       </div>
       <div className="techstack__box techstack__box--left">
         <H3 className="techstack__title" textAlign="center">Tech Stack and Services</H3>
-        <P className="techstack__text" textAlign="center">yellow reach is built mostly with NodeJS, using the Express framework which uses the great package from NodeMailer. We recommend to run the server on Ubuntu and we recommend to use the Zurb email foundation to create your HTML emails. Also we recommend to use Coresender - a very minimalistic and bulletproof service to send the emails.</P>
+        <P className="techstack__text" textAlign="center">Yellowreach is largely built with NodeJS, using the Express framework, which uses the great NodeMailer package. We recommend running the server on Ubuntu and using the Zurb Email Foundation to build your HTML emails. We also suggest using Coresender - a very minimalist and bulletproof service to send the emails.</P>
         <Button className="techstack__button" buttonText="visit Coresender" target="https://coresender.com/" />
       </div>
     </div>
