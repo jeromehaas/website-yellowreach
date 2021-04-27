@@ -10,7 +10,7 @@ const UseCases: React.FunctionComponent<Props> = () => (
     <div className="section__wrapper usecases__wrapper">
       <div className="usecases__box usecases__box--left background-color-green">
         <H3 className="usecases__title" fontColor="white">Use cases</H3>
-        <P fontColor="white" className="usecases__text">yellowreach focusses on simple emails with a few variables and predefined emails.IT can be used for any website web applicatoin or native app. Major use cases are:</P>
+        <P fontColor="white" className="usecases__text">Yellowreach focuses on simple emails with few variables and predefined emails. It can be used for any website, web app or native app. The main use cases are:</P>
         <List fontColor="white" items={['Contact forms', 'Registration process', 'Welcome messages']} />
       </div>
       <div className="usecases__box usecases__box--right background-color-grey">

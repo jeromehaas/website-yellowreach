@@ -63,10 +63,9 @@
     min-height: unset;
   }
   
-  .opensource__box--right {
-    // height: 80vw;s
-  }
-
+.opensource__box--right {
+  height: unset;
+}
   .opensource__title,
   .opensource__text {
     text-align: center;
