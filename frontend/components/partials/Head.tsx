@@ -10,7 +10,7 @@ const Head: React.FunctionComponent<Props> = ({ title }) => (
     <title>Yellowreach {title ? ` | ${title}` : null}</title>
     <meta name="description" content="Send emails with ease from your website to your email client!" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
-    <meta name="author" content="Jérôme Haas" />
+    <link type="text/plain" rel="author" href="humans/humans.txt" />
     <link rel="icon" href="/favicon/favicon.png" />
     <link rel="preload" as="image" href="/cursor/arrow.svg" />
     <link rel="preload" as="image" href="/graphics/circle-grey-topleft.svg" />

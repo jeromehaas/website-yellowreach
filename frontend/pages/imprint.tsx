@@ -4,6 +4,7 @@ import { PageLayout } from 'components/layout/PageLayout';
 import { Head } from 'components/partials/Head';
 import { Navigation } from 'components/partials/Navigation';
 import { Footer } from 'components/partials/Footer';
+import { Link } from 'components/links/Link';
 
 interface Props { }
 
@@ -19,11 +20,20 @@ const imprint: React.FunctionComponent<Props> = () => (
             <H3>Publisher</H3>
             <P>Yellowreach</P>
             <P>Tel: +41 79 512 90 16</P>
-            <P>E-Mail: info@yellowreach.import { } from "module";</P>
+            <P>E-Mail: info@yellowreach.io;</P>
           </div>
           <div className="imprint__paragraph">
-            <H3>Liability statement</H3>
-            <P>Despite careful control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.</P>
+            <H3>Realisation</H3>
+            <br />
+            <H4>Webdevelopment</H4>
+            <P>Jérôme Haas</P>
+            <P>Email: <Link target="hello@jeromehaas.dev">hello@jeromehaas.dev</Link></P>
+            <P>Website: <Link target="https://jeromehaas.dev">jeromehaas.dev</Link></P>
+            {/* <br />
+            <H4>Motion Design</H4>
+            <P>Marc Sen</P>
+            <P>Email: <Link target="mailto:hallo@reiheacht.ch">hallo@reiheacht.ch</Link></P>
+            <P>Website: <Link target="https://reihe8.ch">reihe8.ch</Link></P> */}
           </div>
           <div className="imprint__paragraph">
             <H3>Disclaimer</H3>

@@ -1,0 +1,24 @@
+/* TEAM */
+
+Webdevelopment:
+Jérôme Haas
+Email: hello@jeromehaas.dev
+Website: jeromehaas.dev
+Switzerland, Lucerne
+
+Motion Design:
+Marc Sen
+Email: hallo@reiheacht.ch
+Website: reiheacht.ch
+Switzerland, Lucerne
+
+Webdesign:
+Severine Burri
+Email: severineburri@gmail.com
+Switzerland, Lucerne
+
+                            
+/* SITE */
+
+Last Update: May 2021
+Tech Stack: HTML5, SASS, JavaScript, ES6, NextJS, Lottie
