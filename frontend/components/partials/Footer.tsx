@@ -20,8 +20,8 @@ const Footer: React.FunctionComponent<Props> = () => (
         <div className="footer__container">
           <ul>
             <li>Tel: <Link target="tel:+41795129016">+41 79 512 90 16</Link></li>
-            <li>Mail: <Link href="mailto:info@yellowreach.io">info@yellowreach.io</Link></li>
-            <li>Web: <Link href="https://yellowreach.io">www.yellowreach.io</Link></li>
+            <li>Mail: <Link target="mailto:info@yellowreach.io">info@yellowreach.io</Link></li>
+            <li>Web: <Link target="https://yellowreach.io">www.yellowreach.io</Link></li>
           </ul>
         </div>
         <div className="footer__container">
