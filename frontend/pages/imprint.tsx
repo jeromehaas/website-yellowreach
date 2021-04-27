@@ -33,7 +33,7 @@ const imprint: React.FunctionComponent<Props> = () => (
             <H4>Motion Design</H4>
             <P>Marc Sen</P>
             <P>Email: <Link target="mailto:hallo@reiheacht.ch">hallo@reiheacht.ch</Link></P>
-            <P>Website: <Link target="https://reiheacht.ch">reihe8.ch</Link></P>
+            <P>Website: <Link target="https://reiheacht.ch">reiheacht.ch</Link></P>
           </div>
           <div className="imprint__paragraph">
             <H3>Disclaimer</H3>
