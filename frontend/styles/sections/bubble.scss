@@ -35,13 +35,12 @@
     animation-duration: 10s
   }
 
-
   @for $i from 1 through 100 {
     .bubble:nth-child(#{$i}) {
     left: #{random(95)+'%'};
     animation-delay: #{random(10) - 90 + 's'};
-    }
-    }
+     }
+  }
 
     @keyframes riseUp {
       0% {
@@ -62,70 +61,75 @@
         opacity: 0;
       }
     }
-@media (max-width: 900px) {
-  .bubble-small {
-    animation-duration: 60s
-  }
 
-  .bubble-medium {
-    animation-duration: 40s;
-  }
+    @media (max-width: 900px) {
+    
+      .bubble-small {
+        animation-duration: 60s
+      }
 
-  .bubble-big {
-    animation-duration: 20s
-  }
+      .bubble-medium {
+        animation-duration: 40s;
+      }
 
-  @keyframes riseUp {
-    0% {
-      bottom: 0px;
-      opacity: 0;
+      .bubble-big {
+        animation-duration: 20s
+      }
+
+      @keyframes riseUp {
+        0% {
+          bottom: 0px;
+          opacity: 0;
+        }
+
+        40% {
+          opacity: 1;
+        }
+
+        60% {
+          opacity: 1;
+        }
+
+        100% {
+          bottom: 800px;
+          opacity: 0;
+        }
+    
+      }
+
     }
 
-    40% {
-      opacity: 1;
-    }
+    @media (max-width: 600px) {
+      .bubble-small {
+        animation-duration: 90s
+      }
 
-    60% {
-      opacity: 1;
-    }
+      .bubble-medium {
+        animation-duration: 70s;
+      }
 
-    100% {
-      bottom: 800px;
-      opacity: 0;
-    }
+      .bubble-big {
+        animation-duration: 50s
+      }
+
+      @keyframes riseUp {
+        0% {
+          bottom: 0px;
+          opacity: 0;
+        }
+
+        40% {
+          opacity: 1;
+        }
+
+        60% {
+          opacity: 1;
+        }
+
+        100% {
+          bottom: 2300px;
+          opacity: 0;
+        }
+    
+      }
   }
-}
-
-@media (max-width: 600px) {
-  .bubble-small {
-    animation-duration: 90s
-  }
-
-  .bubble-medium {
-    animation-duration: 70s;
-  }
-
-  .bubble-big {
-    animation-duration: 50s
-  }
-
-  @keyframes riseUp {
-    0% {
-      bottom: 0px;
-      opacity: 0;
-    }
-
-    40% {
-      opacity: 1;
-    }
-
-    60% {
-      opacity: 1;
-    }
-
-    100% {
-      bottom: 2300px;
-      opacity: 0;
-    }
-  }
-}
