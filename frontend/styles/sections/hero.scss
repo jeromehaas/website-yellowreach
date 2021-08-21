@@ -49,10 +49,10 @@
   padding: 0 15px;
   display: inline-block;
   background-color: #F2BD00;
-  }
+}
 
-  .hero__typewriter__cursor {
-    display: none;
+.hero__typewriter__cursor {
+  display: none;
 }
 
 .hero__typewriter span {
@@ -82,6 +82,7 @@
 }
 
 @media (max-width: 600px) {
+ 
   .hero__wrapper {
     background-image: url('../../public/graphics/circle-grey-topleft.svg');
     display: block;
@@ -104,4 +105,5 @@
     white-space: pre-wrap;
     padding: 5px 5px 5px 5px;
   }
+
 }
