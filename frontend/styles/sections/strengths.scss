@@ -44,16 +44,19 @@
   z-index: 5;
 }
 @media (max-width: 900px) {
+ 
   .strenghts__item {
     width: 50%;
     padding: 45px;
   }
+
 }
 
 @media (max-width: 600px) {
+  
   .strenghts__item {
     width: 100%;
     padding: 30px;
-
   }
+
 }
