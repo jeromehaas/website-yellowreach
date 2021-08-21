@@ -79,9 +79,11 @@
     left: 80%;
     animation-delay: -4s
   }
+
 }
 
 @media (max-width: 850px) {
+  
   .techstack__wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -97,7 +99,6 @@
     padding: 75px 30px;
   }
 
-
   .techstack__title,
   .techstack__text {
     text-align: center;
@@ -106,16 +107,20 @@
   .techstack__button {
     margin: 0 auto;
   }
+
 }
 
 @media (max-width: 500px) {
+  
   .techstack__image {
     width: 90px;
     height: 90px;
   }
+
 }
 
 @keyframes moveArround {
+  
   0% {
     transform: translate(-50%, -50%) scale(1);
   }
@@ -127,7 +132,6 @@
   50% {
     transform: translate(-50%, -50%) scale(1);
   }
-
 
   75% {
     transform: translate(-50%, -50%) scale(0.9);
