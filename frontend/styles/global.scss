@@ -17,6 +17,11 @@
   display: none;
   -webkit-appearance: none;
 }
+
+body {
+	background-color: #ffffff;
+}
+
 .list__item {
   font-size: $font-medium;
   line-height: 2;
